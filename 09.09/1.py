@@ -19,6 +19,7 @@ def calc(a, b, c):
             case _:
                 return "Введен не правильный оператор"
 
+
 while True:
     a, b, c = input('num-operator-num: ').split()
     print(calc(a, b, c))
